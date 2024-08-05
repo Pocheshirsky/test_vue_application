@@ -1,11 +1,13 @@
 <script setup>
 import User from './User.vue';
 import CoolButton from './CoolButton.vue'
+
+const model = defineModel()
 </script>
 
 <template>
 <div class="card">
-    <User class="card__user"/>
+    <User class="card__user" v-model="model.user"/>
     <CoolButton class="card__button"/>
     <CoolButton class="card_button"/>
 </div>

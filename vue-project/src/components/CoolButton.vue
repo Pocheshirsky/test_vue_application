@@ -17,14 +17,16 @@ function buttonClick() {
     background-color: greenyellow;
     border-radius: 20px;
     border: none;
+    font-size: 16px;
+    font-family: sans-serif;
 }
 
 .cool_button:hover { 
-    background-color: #3e8e41 
+    background-color: #40ca45;
 }
 
 .cool_button:active {
-    background-color: #3e8e41;
+    background-color: #40ca45;
     transform: translateY(4px);
 }
 </style>

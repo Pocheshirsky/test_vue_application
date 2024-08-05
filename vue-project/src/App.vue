@@ -1,10 +1,16 @@
 <script setup>
 import Card from './components/Card.vue';
+
+const cardData = {
+  user: {
+    name: "Волков Иван Сергеевич",
+  }
+}
 </script>
 
 <template>
 <div class="owner">
-    <Card />
+    <Card v-model="cardData"/>
 </div>
 </template>
 
