@@ -7,9 +7,7 @@ import CoolButton from './CoolButton.vue'
 <div class="card">
     <User class="card__user"/>
     <CoolButton class="card__button"/>
-    <div>
-        Text3
-    </div>
+    <CoolButton class="card_button"/>
 </div>
 </template>
 
